@@ -9,3 +9,72 @@
  * Template: twentythirteen
  * Version: 0.1
  */
+header.site-header {
+  height: 240px;
+}
+header.site-header a {
+  color: black;
+  text-decoration: none;
+}
+header.site-header a hgroup {
+  height: 145px;
+  padding: 45px 40px 10px;
+}
+header.site-header a h1 {
+  font: bold 60px/1 Bitter, Georgia, serif;
+  padding-bottom: 10px;
+  margin: 0;
+}
+header.site-header a h2 {
+  font: 200 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+  text-shadow: none;
+  margin: 0;
+}
+header.site-header #site-navigation {
+  height: 30px;
+  padding: 5px 0;
+  width: 100%;
+  background: #222222;
+}
+header.site-header #site-navigation form {
+  float: right;
+  padding-right: 10px;
+}
+header.site-header #site-navigation input.searchsubmit {
+  display: none;
+}
+body {
+  background: #f2f2f2 url("img/tile.png");
+  margin: 0px auto;
+  max-width: 1280px;
+}
+body #content {
+  padding: 0 0 0 310px;
+  padding-top: 10px;
+}
+body #main-menu {
+  background: #222222;
+  width: 298px;
+  float: left;
+  color: #f2f2f2;
+}
+body #main-menu a {
+  color: #ffffff;
+}
+body #main-menu ul.children {
+  background: #3c3c3c;
+}
+footer.site-footer {
+  background: #222222;
+  color: #f2f2f2;
+  padding: 10px 50px;
+  -moz-box-shadow: inset -1px 0px 0px 0px #000000;
+  -webkit-box-shadow: inset -1px 0px 0px 0px #000000;
+  box-shadow: inset -1px 0px 0px 0px #000000;
+}
+footer.site-footer a {
+  color: #ffffff;
+}
+footer.site-footer .site-info {
+  text-align: right;
+}

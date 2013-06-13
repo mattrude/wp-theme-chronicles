@@ -3,7 +3,7 @@
 
         window.onload = function () {
           var headers = document.querySelectorAll('#docs h2, #guide h1');
-          var menu = document.getElementById('site-navigation');
+          var menu = document.getElementById('main-menu');
           var init = menu.offsetTop;
           var docked;
 
@@ -30,3 +30,24 @@
           return document.body.scrollTop || document.documentElement.scrollTop;
         }
       })();
+
+var $jquery = jQuery.noConflict();
+$jquery(document).ready(function() {
+ 
+  $jquery('div.menu-header-menu-container > li div ul li').has('ul').prepend('<span class="toggleNav minusNav"></span>');
+ 
+  $jquery('div.menu-header-menu-container > li div ul li:not(.current-menu-item):not(.current-menu-ancestor)').has('ul').children('ul').hide();
+ 
+  $jquery('div.menu-header-menu-container > li div ul li:not(.current-menu-item):not(.current-menu-ancestor) span.toggleNav').removeClass("minusNav").addClass("plusNav");
+ 
+  $jquery('span.toggleNav').click(function () {
+    if ($jquery(this).hasClass("plusNav")) {
+      $jquery(this).removeClass("plusNav").addClass("minusNav");
+      $jquery(this).parent().children('ul').slideDown();
+    } else {
+      $jquery(this).removeClass("minusNav").addClass("plusNav");
+      $jquery(this).parent().children('ul').slideUp();
+    }
+  });
+ 
+});
