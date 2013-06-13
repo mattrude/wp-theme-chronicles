@@ -1,6 +1,6 @@
 # Chronicles Theme
 
-Welcome to the [WordPress](http://wordpress.org) theme Chronicles by [Matt Rude](http://mattrude.com).
+Welcome to the development site for the [WordPress](http://wordpress.org) theme Chronicles, by [Matt Rude](http://mattrude.com), a child theme of the [Twenty Thirteen](http://theme.wordpress.com/themes/twentythirteen/) theme.
 
 ## Prequests
 
@@ -18,7 +18,7 @@ Below is a quick overview of the WordPress `Add New Themes` installation method:
 1. Activate the theme from this page, OR `Return to Themes Page` and activate from there if you experience a problem.
 
 ## Support
-If you are having issues using the Gus theme, please file a bug report by creating a [New Issue](https://github.com/mattrude/wp-theme-chronicles/issues) on the projects github issues page.
+If you are having issues using the Chronicles theme, please file a bug report by creating a [New Issue](https://github.com/mattrude/wp-theme-chronicles/issues) on the projects github issues page.
 
 ## License
 Chronicles is free software; you may redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation (http://www.fsf.org/).
