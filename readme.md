@@ -12,7 +12,7 @@ Welcome to the [WordPress](http://wordpress.org) theme Chronicles by [Matt Rude]
 Below is a quick overview of the WordPress `Add New Themes` installation method:
 
 1. Download your template file from [Chronicles github page](https://github.com/mattrude/wp-theme-chronicles/zipball/master).
-1. Log into your [WordPress](http://wordpress.org) admin panel and click on the `Appearance` tab. Now click on the .Add New Themes. tab.
+1. Log into your [WordPress](http://wordpress.org) admin panel and click on the `Appearance` tab. Now click on the `Add New Themes` tab.
 1. Click on the `Upload` button, `Browse` for your zip folder you downloaded from step 1 on your computer and select `Open`.
 1. Click the `Install Now` button.
 1. Activate the theme from this page, OR `Return to Themes Page` and activate from there if you experience a problem.
