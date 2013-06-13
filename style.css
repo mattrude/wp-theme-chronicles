@@ -62,6 +62,7 @@ body #content {
 body #main-menu {
   background: #222222;
   width: 298px;
+  height: 100%;
   float: left;
   color: #f2f2f2;
 }
