@@ -35,6 +35,13 @@ header.site-header #site-navigation {
   padding: 5px 0;
   width: 100%;
   background: #222222;
+  float: left;
+}
+header.site-header #site-navigation h3.menu-toggle {
+  display: none;
+}
+header.site-header #site-navigation li, header.site-header #site-navigation ul {
+  float: left;
 }
 header.site-header #site-navigation form {
   float: right;
@@ -63,6 +70,12 @@ body #main-menu a {
 }
 body #main-menu ul.children {
   background: #3c3c3c;
+}
+body #main-menu li.current_page_parent {
+  background: #3c3c3c;
+}
+body #main-menu li.current_page_item {
+  background: #555555;
 }
 footer.site-footer {
   background: #222222;

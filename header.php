@@ -57,5 +57,5 @@ $html_class = ( is_admin_bar_showing() ) ? 'wp-toolbar' : '';
 
 		<div id="main" class="site-main">
             <div id="main-menu" class="main-menu">
-                <?php wp_nav_menu( array( 'theme_location' => 'header', 'menu_class' => 'header-menu' ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'side', 'menu_class' => 'nav-menu' ) ); ?>
             </div>

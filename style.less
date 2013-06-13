@@ -53,6 +53,13 @@ header.site-header {
     padding: 5px 0;
     width: 100%;
     background: @bgcolor-navbar;
+    float: left;
+    h3.menu-toggle {
+      display: none;
+    }
+    li, ul {
+      float: left;
+    }
     form {
       float: right;
       padding-right: 10px;
@@ -80,6 +87,12 @@ body {
     }
     ul.children {
       background: lighten(@bgcolor-navbar, 10%);
+    }
+    li.current_page_parent {
+      background: lighten(@bgcolor-navbar, 10%);
+    }
+    li.current_page_item {
+      background: lighten(@bgcolor-navbar, 20%);
     }
   }
 }
